@@ -96,6 +96,11 @@ The Dockuri ecosystem is structured into distinct, modular layers:
 | [`willapx`](https://github.com/dockuri/willapx) | Runtime Manager | Polyglot multi-project application runtime manager implementing the Wellmanifest APX standard. |
 | [`willops`](https://github.com/dockuri/willops) | Domain Operations | AST-discoverable companion tools and operations, including `call_dockuri` and `run_dockuri_plan`. |
 | [`willmesh`](https://github.com/dockuri/willmesh) | Distributed Mesh | Resilient distributed mesh network, durable acts (Mesh Acts), checkpoints, and verified outcomes. |
+| [`meshsync`](https://github.com/dockuri/meshsync) | Mesh Synchronizer | REST Git DVCS mesh synchronizer for distributed agent clusters and nodes (<5ms response time). |
+| [`meshsync-sandbox`](https://github.com/dockuri/meshsync-sandbox) | Sync Sandbox | Isolated testbench and correctness verification sandbox for mesh synchronization. |
+| [`procache`](https://github.com/dockuri/procache) | Process Cache | Provider-neutral SQLite WAL response cache with rate-limit cooldown for read-side API workloads. |
+| [`process-identity`](https://github.com/dockuri/process-identity) | Process Capsule | Process identity tracking, execution capsules, and runtime container isolation. |
+| [`planfile-orchestration`](https://github.com/dockuri/planfile-orchestration) | Plan Orchestrator | Deterministic Planfile ticket mechanics, DAG runner, and multi-agent workflow orchestration. |
 | [`urirun-work`](https://github.com/dockuri/urirun-work) | Scheduler | Parallel work scheduler for independent execution lanes, declared locks, and worker pools. |
 
 ---
